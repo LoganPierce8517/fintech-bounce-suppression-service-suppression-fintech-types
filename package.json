@@ -1,0 +1,22 @@
+{
+  "name": "fintech-bounce-suppression-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/payment_notification_service.ts",
+    "demo": "tsx scripts/demo_payment_event.ts",
+    "test": "tsx --test test/payment_notification_policy.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
